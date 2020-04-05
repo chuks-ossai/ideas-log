@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #377D6A;
+}
+
+.ReactModalPortal > div {
+    opacity: 0;
+}
+
+
+.ReactModalPortal {
+    .ReactModal__Overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: opacity 200ms ease-in-out;
+    }
+
+    .ReactModal__Overlay--after-open {
+        opacity: 1;
+    }
+
+    .ReactModal__Overlay--before-close {
+        opacity: 0;
+    }
+}

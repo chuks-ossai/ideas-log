@@ -1,0 +1,21 @@
+.Ideas {
+    min-width: 420px;
+    max-width: 780px;
+    margin: auto;
+    background-color: #B2E3AF;
+    padding: 30px;
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;;
+    }
+
+    .no-data {
+        font-size: 25px;
+        font-weight: bold;
+        color: red;
+        text-align: center;
+        font-style: italic;
+    }
+}

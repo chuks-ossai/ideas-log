@@ -1,0 +1,54 @@
+.idea-form-modal {
+    background-color: #7AB893;
+    // max-width: 450px;
+    outline: none;
+    text-align: center;
+    padding: 50px;
+}
+
+.IdeaForm {
+    min-width: 420px;
+    max-width: 780px;
+    margin: auto;
+
+    .form {
+        display: flex;
+
+        input {
+            flex-grow: 1;
+            padding: 0;
+            border: 1px solid #134A46;
+            // background-color: #032429;
+            background-color: transparent;
+            padding: 10px;
+            min-width: 450px;
+        }
+
+        input:focus {
+            border-color: #134A46;
+            background-color: lighten(#134a46, 10%);
+            color: white
+        }
+
+        button {
+            padding: 16px;
+            text-transform: uppercase;
+            border: 2px solid #134A46;
+            background: transparent;
+            color: #134A46;
+            margin-left: 3px;
+        }
+        button:hover {
+            background-color: lighten(#134a46, 10%);
+            color: white
+        }
+    }
+
+    .error-msg {
+        color: red;
+        font-style: italic;
+        padding: 5px;
+        margin-bottom: 10px;
+
+    }
+}
